@@ -14,7 +14,17 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@youtube-app/client/core/http-client": [
+        "libs/client/core/http-client/src/index.ts"
+      ],
+      "@youtube-app/server/auth/feature-auth": [
+        "libs/server/auth/feature-auth/src/index.ts"
+      ],
+      "@youtube-app/server/core/feature": [
+        "libs/server/core/feature/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
