@@ -23,6 +23,9 @@
         "prerender": true,
         "ssr": {
           "entry": "apps/client/server.ts"
+        },
+        "stylePreprocessorOptions": {
+          "includePaths": ["libs/scss"]
         }
       },
       "configurations": {

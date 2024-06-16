@@ -1,1 +1,2 @@
-export * from './lib/client-core-http-client/client-core-http-client.component';
+export * from './lib/http-client.service';
+export * from './lib/api-url.token';
